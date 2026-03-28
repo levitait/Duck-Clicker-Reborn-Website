@@ -1,0 +1,23 @@
+body {
+    background-image: url(./assets/images/duckduckhills_bg1.gif);
+    background-size: 1500px;
+    image-rendering: pixelated;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    transform: scale(1);
+    will-change: transform; 
+    transition: transform 0.2s ease;
+}
+
+button {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}

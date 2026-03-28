@@ -1,0 +1,42 @@
+body {
+    background-image: url(./assets/images/BG1.png);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    transform: scale(1);
+    will-change: transform; 
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+img:active {
+  transform: scale(0.9);
+}
+
+@keyframes rotate-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-1.5deg); /* Rotate left */
+  }
+  75% {
+    transform: rotate(1.5deg);  /* Rotate right */
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+img:hover {
+    animation-name: rotate-shake;
+    animation-duration: 1s;
+}
+

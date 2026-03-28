@@ -1,0 +1,20 @@
+body {
+    background-image: url(./assets/images/BG1.png);
+    text-align: center;
+    font-family: sans-serif;
+    overflow-y: hidden;
+}
+
+button {
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: white;
+    background-color: rgba(0, 188, 188, 0.308);
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+p {
+    text-align: right;
+}
