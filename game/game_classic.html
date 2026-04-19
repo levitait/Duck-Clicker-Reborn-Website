@@ -13,7 +13,7 @@
     <div class="bbtn1"><h3 onclick="window.location.href = gurl + 'game/playopts.html';">🠜</h3></div>
     <h1 id="currentclicks">0</h1>
     <span class="shop1">
-        <button onclick="updatepricesonbuy(); cps = cps + 1;">Bread (CPS +1) - Cost: 50 Clicks</button>
+        <button id="cps_upg_1" onclick="if (clicks >= cps_upg_1_cost) { clicks = clicks - cps_upg_1_cost; document.getElementById('currentclicks').innerText = clicks; updatepricesonbuy(); cps = cps + 1; } else { alert('Not enough Clicks!'); }">Bread (CPS +1) - Cost: 50 Clicks</button>
         <br>
         <button></button>
         <br>

@@ -27,4 +27,5 @@ setInterval(() => {
 function updatepricesonbuy() {
     cpc_upg_1_cost = cpc_upg_1_cost * 2;
     cps_upg_1_cost = cps_upg_1_cost * 2;
+    document.getElementById('cps_upg_1').innerText = 'Bread (CPS +1) - Cost: ' + cps_upg_1_cost + ' Clicks';
 };
