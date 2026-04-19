@@ -8,10 +8,19 @@
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
 </head>
 <body>
+    <script src="./extra_api_stuff_ig.js"></script>
     <script src="./main.js"></script>
+    <div class="bbtn1"><h3 onclick="window.location.href = gurl + 'game/playopts.html';">🠜</h3></div>
     <h1 id="currentclicks">0</h1>
+    <span class="shop1">
+        <button onclick="updatepricesonbuy(); cps = cps + 1;">Bread (CPS +1) - Cost: 50 Clicks</button>
+        <br>
+        <button></button>
+        <br>
+        <button></button>
+    </span>
     <br>
     <br>
-    <img src="./assets/images/btn_duck.png" onclick="givepoints(1);" width="450" height="450">
+    <img src="./assets/images/btn_duck.png" onclick="givepoints(cpc); const soundClone = quackSound.cloneNode(); soundClone.play();" width="450" height="450">
 </body>
 </html>

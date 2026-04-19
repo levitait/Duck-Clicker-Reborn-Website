@@ -40,3 +40,13 @@ img:hover {
     animation-duration: 1s;
 }
 
+.bbtn1 {
+  text-align: left;
+  cursor: pointer;
+}
+
+.shop1 {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
